@@ -67,9 +67,9 @@
                                     </li>
                                     <li class="contact-field">
                                         <i class="fa-solid fa-location-dot"></i>
-                                        <a href="javascript:void()">
+                                        <span>
                                             1100 N. Bowser Rd. <br> Richardson, TX 78081
-                                        </a>
+                                        </span>
                                     </li>
                                 </ul>
                                 <ul class="social-icons-main">
@@ -187,7 +187,7 @@
                                                 <div class="payment-info-field-area">
                                                     <div class="form-container">
                                                         <div class="field-container">
-                                                            <label class="form-label" for="name">Name</label>
+                                                            <label class="form-label" for="name">Card Holder Name</label>
                                                             <input id="name" class="form-input" maxlength="20" type="text" />
                                                         </div>
                                                         <div class="field-container">
@@ -211,7 +211,7 @@
                                                                 ></svg>
                                                         </div>
                                                         <div class="field-container">
-                                                            <label class="form-label" for="expirationdate">Expiration (mm/yy)</label>
+                                                            <label class="form-label" for="expirationdate">Expiration (Month / Year)</label>
                                                             <input
                                                                 class="form-input"
                                                                 id="expirationdate"
@@ -221,7 +221,7 @@
                                                                 />
                                                         </div>
                                                         <div class="field-container">
-                                                            <label class="form-label" for="securitycode">Security Code</label>
+                                                            <label class="form-label" for="securitycode">CVV</label>
                                                             <input
                                                                 class="form-input"
                                                                 id="securitycode"
