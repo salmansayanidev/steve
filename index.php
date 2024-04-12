@@ -24,8 +24,10 @@
 
         <header></header>
 
-        <img class="left-img" src="./assets/images/left.png" alt="">
-        <img class="right-img" src="./assets/images/right.png" alt="">
+        <div class="left-right-img-area">
+            <img class="left-img" src="./assets/images/left.png" alt="">
+            <img class="right-img" src="./assets/images/right.png" alt="">
+        </div>
         <section class="payment-section">    
             <div class="container">
                 <div class="row">
